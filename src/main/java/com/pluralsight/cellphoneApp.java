@@ -33,7 +33,9 @@ public class  cellphoneApp {
         thePhone.setOwner(owner);
 
 
-        System.out.println(thePhone.toString());
+        System.out.println(owner + " owns a " + carrier + " " + model + ".");
+        System.out.println("Phone number: " + phoneNumber);
+        System.out.println("Serial number: " + serialNumber);
 
 
 
