@@ -13,6 +13,8 @@ public class  CellphoneApp {
 
         CellPhone thePhone1 = new CellPhone();
         CellPhone thePhone2 = new CellPhone();
+        CellPhone thePhone3 = new CellPhone(12133,"Samsung", "ATT","3273792987","MOM");
+
         thePhone2.setSerialNumber(1);
         thePhone2.setOwner("Amani");
         thePhone2.setModel("Iphone 14");
@@ -44,12 +46,14 @@ public class  CellphoneApp {
 
        display(thePhone1);
        display(thePhone2);
+       display(thePhone3);
 
 
 
 
     thePhone2.dial("9032155817");
     thePhone2.dial(thePhone1.getOwner());
+    thePhone3.dial(thePhone3.getPhoneNumber());
 
 
     }
