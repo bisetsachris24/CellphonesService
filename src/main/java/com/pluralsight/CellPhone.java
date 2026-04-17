@@ -17,8 +17,6 @@ public class CellPhone {
         this.owner = "";
 
 
-
-
     }
 
     public CellPhone(int serialNumber, String model, String carrier, String phoneNumber, String owner) {
