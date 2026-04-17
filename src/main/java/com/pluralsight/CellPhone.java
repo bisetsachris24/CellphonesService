@@ -1,6 +1,6 @@
 package com.pluralsight;
 
-public class cellPhone {
+public class CellPhone {
     // data
     private int serialNumber;
     private String model;
@@ -9,7 +9,7 @@ public class cellPhone {
     private String owner;
 
     // creating Constructor
-    public cellPhone() {
+    public CellPhone() {
         this.serialNumber = 0;
         this.model = " ";
         this.carrier = " ";
@@ -70,4 +70,13 @@ public class cellPhone {
                 ", serialNumber=" + serialNumber +
                 '}';
     }
+    public void dial(String phoneNumber){
+        System.out.println(this.owner +" phone is calling "+ phoneNumber);
+    }
+
 }
+
+
+
+
+
